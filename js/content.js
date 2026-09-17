@@ -126,11 +126,11 @@ window.PORTFOLIO = {
         },
         {
           title: "Machining",
-          body: "All CNC features were programmed and machined on a two-axis mill using a 1/2-inch end mill. Keeping one primary tool reduced tool changes and cycle time while complying with the project's manufacturing constraints."
+          body: "All CNC features were programmed and machined on a two-axis CNC mill using a 1/2-inch end mill. Keeping one primary tool reduced tool changes and cycle time while complying with the project's manufacturing constraints."
         },
         {
           title: "Documentation",
-          body: "The manufacturing drawing uses ordinate dimensioning to simplify CNC programming. Underside slots accept cantilever clips from the mating clearance mount, and a top circular boss maintains the required PCB no-touch zone."
+          body: "The manufacturing drawing uses ordinate dimensioning to simplify CNC programming. Comprehensive manuacturing plan was submitted to professor for review."
         }
       ],
       gallery: [
