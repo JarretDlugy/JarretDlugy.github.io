@@ -138,10 +138,48 @@ window.PORTFOLIO = {
         { src: "assets/images/cnc-part-drawing.jpg", alt: "Engineering drawing of the standoff mount geometry.", caption: "Part definition and constrained geometry." },
         { src: "assets/images/cnc-manufacturing-drawing.jpg", alt: "Manufacturing drawing of the standoff mount with dimensions and section view.", caption: "Manufacturing drawing prepared for CNC programming." }
       ]
-    }
+    },
+    {
+      id: "fluid mechanics research",
+      label: "Independent Study",
+      title: "Elevated Jet in Crossflow Research",
+      cardDescription: "Research project investigating the behavior of an common fluid dynamics structure",
+      deck: "A research project documenting the dynamic behavior of a structure in both laminar and turbulent flow",
+      hero: "assets/images/BetterzoomU1f1.png",
+      heroAlt: "Elevated Jet in Crossflow",
+      heroCaption: "Counter Rotating Vortex Pairs",
+      tags: ["High Speed Videography","Experimental Research", "Fluid Mechanics", "3D Printing","Image Processing"],
+      facts: {
+        Role: "Research Assistant",
+        Course: "Independent Study",
+        Software: "MATLAB, SolidWorks, LaTeX",
+        Output: "Formal document clearly highlighting research process"
+      },
+      sections: [
+        {
+          title: "Objective",
+          body: "Generate high speed flow-field images capturing coherent fluid structures in laminar and turbulent regimes to develop a training dataset for machine learning model for reconstructing and simulating fluid velocity fields. The dataset will also support analysis and identification of established flow structures and their underlying fluid-dynamic characteristics."
+        },
+        {
+          title: "First steps",
+          body: "Ensured agreement between experimental and simulation conditions to generate representative training data for machine-learning models. Collaborated closely with the machine-learning team to define simulation boundary conditions and flow characteristics. A FDM 3D printed flow constriction was designed, prototyped, and manufactured in order to re-create simulation conditions."
+        },
+        {
+          title: "Data Collection",
+          body: "Utilized a Chronos high speed camera with optimized imaging parameters for image-based analysis. Experimentally evaluated both elevated jets in crossflow and conventional jets in crossflow across laminar and turbulent flow regimes. Replicated literature-reported flow conditions and scenario specific parameters, including flow ratios, to achieve representative jet structures and facilitate comparative analysis."
+        },
+        {
+          title: "Final Deliverable",
+          body: "Consolidated experimental results into a formal technical research report documenting experimental methodology, flow conditions, observed results, and comparisons with published literature. Processed and presented high speed imaging data to clearly resolve characteristic flow structures and visualize their breakdown with increasing turbulence."
+        }
+      ],
+      gallery: [
+        { src: "assets/images/IMG_0466.jpeg", alt: "Downstream image of flow structures behind an elevated jet in crossflow", caption: "Before: Looking upstream at counter rotating vortex pairs behind an elevated jet in crossfow." },
+        { src: "assets/images/ZoomMeanU4f56.png", alt: "Image of time averaged video of flow with constant parameters", caption: "Image of time averaged video of flow with constant parameters used to highlight increasing disorder with turbulence." }
+      ]
+    },
   ],
-
-  experience: [
+    experience: [
     {
       role: "Mechanical Engineering Intern",
       company: "Lexington Medical Inc.",
