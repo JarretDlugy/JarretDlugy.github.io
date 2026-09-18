@@ -44,7 +44,7 @@ window.PORTFOLIO = {
         },
         {
           title: "Design response",
-          body: "Jarret designed a custom organizer in SolidWorks with 24 isolated compartments. Velcro-lined positions secure cells while keeping them removable, and integrated hooks allow the assembly to attach to existing lab equipment without a major chamber modification."
+          body: "Designed a custom organizer in SolidWorks with 24 isolated compartments. Velcro-lined positions secure cells while keeping them removable, and integrated hooks allow the assembly to attach to existing lab equipment without a major chamber modification."
         },
         {
           title: "Manufacturing",
@@ -87,7 +87,7 @@ window.PORTFOLIO = {
         },
         {
           title: "Design",
-          body: "Jarret reverse engineered relevant drivetrain geometry, created the shaft adapter in SolidWorks, and documented the part with an engineering drawing. The adapter provides axial positioning for the timing gear and interfaces with a modified manufacturer-supplied component using four fasteners."
+          body: "Reverse engineered relevant drivetrain geometry, created the shaft adapter in SolidWorks, and documented the part with an engineering drawing. The adapter provides axial positioning for the timing gear and interfaces with a modified manufacturer-supplied component using four fasteners."
         },
         {
           title: "Integration",
@@ -175,7 +175,7 @@ window.PORTFOLIO = {
       ],
       gallery: [
         { src: "assets/images/IMG_0466.jpeg", alt: "Downstream image of flow structures behind an elevated jet in crossflow", caption: "Before: Looking upstream at counter rotating vortex pairs behind an elevated jet in crossfow." },
-        { src: "assets/images/ShotU15f21.png", alt: "Image of clear dissolving flow structures", caption: "Image of turbulent flow with coherent repeating structure." }
+        { src: "assets/images/ChannelConstrictionCAD.png", alt: "Image of flow constriction", caption: "Image of 3D printed flow constriction used to mimic simulated Reynolds number." }
       ]
     },
   ],
