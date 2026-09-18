@@ -175,7 +175,7 @@ window.PORTFOLIO = {
       ],
       gallery: [
         { src: "assets/images/IMG_0466.jpeg", alt: "Downstream image of flow structures behind an elevated jet in crossflow", caption: "Before: Looking upstream at counter rotating vortex pairs behind an elevated jet in crossfow." },
-        { src: "assets/images/ZoomMeanU4f56.png", alt: "Image of time averaged video of flow with constant parameters", caption: "Image of time averaged video of flow with constant parameters used to highlight increasing disorder with turbulence." }
+        { src: "assets/images/ShotU15f21.png", alt: "Image of clear dissolving flow structures", caption: "Image of turbulent flow with coherent repeating structure." }
       ]
     },
   ],
