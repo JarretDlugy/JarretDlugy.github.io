@@ -22,45 +22,6 @@ window.PORTFOLIO = {
 
   projects: [
     {
-      id: "battery-organizer",
-      label: "Amel Energy · 2025",
-      title: "Battery Testing Chamber Organizer",
-      cardDescription: "A 24-position, 3D-printed organization system for a growing battery test chamber.",
-      deck: "A low-cost, rapidly manufacturable fixture that transformed an increasingly crowded battery test chamber into a more organized, traceable setup.",
-      hero: "assets/images/battery-installed.jpg",
-      heroAlt: "Completed red 24-position battery organizer installed inside a metal battery testing chamber.",
-      heroCaption: "Final organizer installed in the battery testing chamber.",
-      tags: ["SolidWorks", "3D Printing", "DFMA", "Battery Testing"],
-      facts: {
-        Role: "Battery Engineer Intern",
-        Organization: "Amel Energy",
-        Tools: "SolidWorks, FDM 3D printing",
-        Output: "24-position test organizer"
-      },
-      sections: [
-        {
-          title: "Problem",
-          body: "The chamber initially supported eight independent battery test channels with electrical leads hanging freely from the ceiling. With sixteen additional channels planned, the existing layout would increase cable congestion, make channel identification harder, and slow setup and troubleshooting."
-        },
-        {
-          title: "Design response",
-          body: "Designed a custom organizer in SolidWorks with 24 isolated compartments. Velcro-lined positions secure cells while keeping them removable, and integrated hooks allow the assembly to attach to existing lab equipment without a major chamber modification."
-        },
-        {
-          title: "Manufacturing",
-          body: "The component was designed as a low-cost, rapidly manufacturable solution and fabricated in PLA using FDM 3D printing. The geometry was developed around the existing chamber and test hardware rather than forcing a new lab layout."
-        },
-        {
-          title: "Result",
-          body: "The finished organizer reduces cable congestion, improves channel traceability, and makes connecting and disconnecting coin-cell batteries more efficient during test operations."
-        }
-      ],
-      gallery: [
-        { src: "assets/images/battery-before.jpg", alt: "Battery testing chamber before the organizer, with electrical leads hanging freely.", caption: "Before: cable leads suspended freely inside the chamber." },
-        { src: "assets/images/battery-cad.jpg", alt: "SolidWorks CAD model of the 24-position battery organizer.", caption: "CAD development of the 24-position organizer." }
-      ]
-    },
-    {
       id: "crankshaft-adapter",
       label: "UMass Mass Mileage · 2025–2026",
       title: "Crankshaft Adapter",
@@ -97,6 +58,45 @@ window.PORTFOLIO = {
       gallery: [
         { src: "assets/images/crankshaft-clutch.jpg", alt: "Noram Cheetah centrifugal clutch.", caption: "Selected Noram Cheetah centrifugal clutch." },
         { src: "assets/images/crankshaft-drawing.jpg", alt: "Engineering drawing of the custom crankshaft adapter.", caption: "Engineering drawing used to define the custom adapter." }
+      ]
+    },
+    {
+      id: "battery-organizer",
+      label: "Amel Energy · 2025",
+      title: "Battery Testing Chamber Organizer",
+      cardDescription: "A 24-position, 3D-printed organization system for a growing battery test chamber.",
+      deck: "A low-cost, rapidly manufacturable fixture that transformed an increasingly crowded battery test chamber into a more organized, traceable setup.",
+      hero: "assets/images/battery-installed.jpg",
+      heroAlt: "Completed red 24-position battery organizer installed inside a metal battery testing chamber.",
+      heroCaption: "Final organizer installed in the battery testing chamber.",
+      tags: ["SolidWorks", "3D Printing", "DFMA", "Battery Testing"],
+      facts: {
+        Role: "Battery Engineer Intern",
+        Organization: "Amel Energy",
+        Tools: "SolidWorks, FDM 3D printing",
+        Output: "24-position test organizer"
+      },
+      sections: [
+        {
+          title: "Problem",
+          body: "The chamber initially supported eight independent battery test channels with electrical leads hanging freely from the ceiling. With sixteen additional channels planned, the existing layout would increase cable congestion, make channel identification harder, and slow setup and troubleshooting."
+        },
+        {
+          title: "Design response",
+          body: "Designed a custom organizer in SolidWorks with 24 isolated compartments. Velcro-lined positions secure cells while keeping them removable, and integrated hooks allow the assembly to attach to existing lab equipment without a major chamber modification."
+        },
+        {
+          title: "Manufacturing",
+          body: "The component was designed as a low-cost, rapidly manufacturable solution and fabricated in PLA using FDM 3D printing. The geometry was developed around the existing chamber and test hardware rather than forcing a new lab layout."
+        },
+        {
+          title: "Result",
+          body: "The finished organizer reduces cable congestion, improves channel traceability, and makes connecting and disconnecting coin-cell batteries more efficient during test operations."
+        }
+      ],
+      gallery: [
+        { src: "assets/images/battery-before.jpg", alt: "Battery testing chamber before the organizer, with electrical leads hanging freely.", caption: "Before: cable leads suspended freely inside the chamber." },
+        { src: "assets/images/battery-cad.jpg", alt: "SolidWorks CAD model of the 24-position battery organizer.", caption: "CAD development of the 24-position organizer." }
       ]
     },
     {
